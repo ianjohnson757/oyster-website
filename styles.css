@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Engagement&family=Forum&family=Vujahday+Script&display=swap');
+*{ 
+    margin:0;
+    padding: 0;
+}
+
+body {
+    font-family:"forum";
+    background-image: url(img/headerwhite.jpg);
+    background-size:contain;
+    padding-left:10%;
+    padding-right: 10%;
+}
+
+.header {
+    background-color:#1f2937;
+    padding-bottom:50px;
+    padding-left:12px;
+    padding-right:12px;
+    padding-top:10px;
+}
+
+.navbar {
+ 
+    margin-bottom: 50px;
+    border-style: solid;
+    border-width: 3px;
+    border-color:white;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items:center;
+
+}
+
+.navbar-left {
+    
+    color:rgb(107, 201, 233);
+    font-family:"vujahday script";
+    font-weight: bolder;
+    font-size: 60px;
+
+
+}
+
+
+.headerlinks{
+    color:white;
+    margin: 10px;
+    font-size:18px;
+}
+
+ul {
+    display:flex;
+    flex-direction:row;
+    
+}
+
+.header-content {
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+
+}
+
+
+h1 {
+    color:white;
+    font-family:"vujahday script";
+    font-weight: bolder;
+    font-size:48px;
+}
+
+.book-a-gig {
+    font-size:24px;
+    margin: 10px;
+}
+
+
+.second-section {
+    
+}
+
+.tealbold {
+    color:rgb(107, 201, 233);
+    background-color: white;
+    font-family:"vujahday script";
+    font-weight: bolder;
+    font-size:48px;
+    padding-bottom:5px;
+
+    display:flex;
+    justify-content:center;
+
+}
+
+.boxes {
+   margin:40px;
+
+   
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    
+    
+    
+}
+
+.pic {
+    border-radius:25px;
+    font-weight:bolder;
+    
+    width:150px;
+    height:auto;
+
+   
+}
+
