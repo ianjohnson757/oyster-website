@@ -6,8 +6,8 @@
 
 body {
     font-family:"forum";
-    background-image: url(img/headerwhite.jpg);
-    background-size:contain;
+    background-image: url(img/lynnhavenriver.jpg);
+    background-attachment: fixed;
     padding-left:10%;
     padding-right: 10%;
 }
@@ -18,18 +18,22 @@ body {
     padding-left:12px;
     padding-right:12px;
     padding-top:10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius:10px;
 }
 
 .navbar {
- 
+    background-color: white;
     margin-bottom: 50px;
     border-style: solid;
     border-width: 3px;
     border-color:white;
+    border-radius: 10px;
     display:flex;
     flex-direction: row;
     justify-content:space-around;
     align-items:center;
+    flex-wrap:wrap;
 
 }
 
@@ -45,7 +49,7 @@ body {
 
 
 .headerlinks{
-    color:white;
+    color:rgb(107, 201, 233);;
     margin: 10px;
     font-size:18px;
 }
@@ -98,37 +102,92 @@ button:hover {
     font-size:48px;
     padding-bottom:5px;
     margin:15px;
+    margin-top:50px;
+    border-style:solid;
+    border-width:1px;
+    border-color:rgb(31, 41, 55);
+    border-radius: 10px;
 
     display:flex;
     justify-content:center;
 
 }
 
+
 .boxes {
-   margin:40px;
+    font-weight:bolder;
+    margin-top: 50px;
+     
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    flex-wrap: wrap;  
+}
+.pic-1 {
+    background-image: url(img/clean.jpg);
+    background-size:contain;
+    width: 150px;
+    height: 150px;
+    border-radius:25px;
+    border-style:solid;
+    border-width:3px;
+    border-color: rgb(107, 201, 233);
+
+}
+
+.pic-2 {
+    background-image: url(img/party.jpg);
+    background-size:contain;
+    width: 150px;
+    height: 150px;
+    border-radius:25px;
+    border-style:solid;
+    border-width:3px;
+    border-color: rgb(107, 201, 233);
+}
+.pic-3 {
+    background-image: url(img/cooked.jpg);
+    background-size:contain;   
+     width: 150px;
+    height: 150px;
+    border-radius:25px;
+    border-style:solid;
+    border-width:3px;
+    border-color: rgb(107, 201, 233);
+
+}
+
+.pic-4 {
+    background-image: url(img/comp.jpg);
+    background-size:contain;
+    width: 150px;
+    height: 150px;
+    border-radius:25px;
+    border-style:solid;
+    border-width:3px;
+    border-color: rgb(107, 201, 233);
+}
+.discriptors {
+    margin-top:20px;
+    margin-bottom: 100px;
    font-size:18px;
    font-weight:bolder;
+   
 
    
     display:flex;
     flex-direction: row;
-    justify-content:space-between;
+    justify-content:space-around;
     flex-wrap: wrap;
     
-    
-    
+
 }
-
-.pic {
-    border-radius:25px;
-    font-weight:bolder;
+.discription {
+    width: 150px;
+    height: auto;
     
-    width:150px;
-    height:auto;
 
-   
 }
-
 .quote {
     font-size: 35px;
     font-weight:900;
@@ -136,11 +195,12 @@ button:hover {
     background-color:rgba(31, 41, 55, .9);
     padding-left: 80px;
     padding-right: 80px;
-   padding-top:40px;
-   padding-bottom:40px;
-   border-style:double;
+   padding-top:100px;
+   padding-bottom:100px;
+   border-style:solid;
    border-color:white;
-   border-width: 5px;
+   border-width: 2px;
+   border-radius:10px;
    
    display:flex;
    flex-direction: column;
@@ -158,4 +218,6 @@ button:hover {
     border-style:solid;
     border-width:80px;
     border-color:white;
+    display:flex;
+    
 }
